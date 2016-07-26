@@ -1,0 +1,76 @@
+/*
+ Theme Name:   Tk Child
+ Theme URI:    http://example.com/twenty-fifteen-child/
+ Description:  TK Child Theme
+ Author:       John Doe
+ Author URI:   http://example.com
+ Template:     _tk-master
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twenty-fifteen-child
+*/
+.container-fluid {
+background-color: black;
+}
+.jumbotron{
+	background-color: transparent;
+	color: #68B3C8;
+	font-family: 'Exo 2', sans-serif;
+}
+.content {
+	background-color: red;
+	color: white;
+}
+
+.navbar.navbar-default {
+	background-color: transparent;
+	border: 0px;
+	color: #68B3C8;
+	font-family: 'Exo 2', sans-serif;
+}
+
+.collapse {
+	border-color: transparent;
+
+}
+
+.navbar-default .navbar-brand {
+	color: #68B3C8;
+	font-family: 'Exo 2', sans-serif;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #68B3C8;
+    font-family: 'Exo 2', sans-serif;
+}
+nav>li>a:hover
+
+body {
+	background-color: #FFFCF5;
+}
+.site-navigation-inner{
+	background-image: url("https://media.giphy.com/media/ygAaR0n5RsyAM/giphy.gif");
+ background-color: #cccccc;
+ moz-background-size:100% 100%;
+-webkit-background-size:100% 100%;
+background-size:100% 100%;
+background-repeat: no-repeat;
+color: #68B3C8;
+}
+.main-content {
+	color : #68B3C8;
+	font-family: 'Exo 2', sans-serif;
+}
+a {
+	color: #68B3C8;
+	font-family: 'Exo 2', sans-serif;
+}
+a:hover {
+color: #66615B;
+}
+
+body {
+  position: relative;
+}

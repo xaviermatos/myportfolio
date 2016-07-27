@@ -73,4 +73,9 @@ color: #66615B;
 
 body {
   position: relative;
+  font-family: 'Raleway', sans-serif;
 }
+ p {
+ 	font-family: 'Raleway', sans-serif;
+ }
+ 

@@ -20,6 +20,7 @@
 
 	<?php wp_head(); ?>
 	<link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 </head>
 
 <body <?php body_class(); ?>>

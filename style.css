@@ -47,6 +47,7 @@ background-color: black;
 }
 nav>li>a:hover {
 	color: #427C89;
+    text-decoration: none;
 }
 
 body {
@@ -68,9 +69,11 @@ color: #3091B2;
 a {
 	color: #3091B2;
 	font-family: 'Raleway', sans-serif;
+    text-decoration: none;
 }
 a:hover {
 color: #427C89;
+text-decoration: none;
 }
 
 body {
@@ -91,10 +94,12 @@ body {
  }
  .navbar-default .navbar-brand:hover {
     color: #427C89;
+    text-decoration: none;
 }
 
 .navbar-default .navbar-nav>li>a:hover {
     color: #427C89; 
+    text-decoration: none;
 
     }
     .btn-primary {
@@ -107,6 +112,7 @@ body {
 background-color: #3091B2;
     color: #FFFFFF;
     border-color: #3091B2;
+    text-decoration: none;
 }
 .pager li>a, .pager li>span {
     display: inline-block;
@@ -115,14 +121,17 @@ background-color: #3091B2;
     border: 1px solid #3091B2;
     border-radius: 15px;
     color: #3091B2;;
+    text-decoration: none;
 }
  .pager li>a:hover {
     text-decoration: none;
     background-color: #3091B2;
     color: #FFFFFF;
     border-color: #3091B2;
+    text-decoration: none;
     }
     .site-footer {
     	color : #3091B2;
 	font-family: 'Exo 2', sans-serif;
+    text-decoration: none;
     }

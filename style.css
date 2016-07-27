@@ -1,8 +1,8 @@
 /*
- Theme Name:   Tk Child
+ Theme Name:   Tk Xavier Matos
  Theme URI:    http://example.com/twenty-fifteen-child/
  Description:  TK Child Theme
- Author:       John Doe
+ Author:       Xavier Matos
  Author URI:   http://example.com
  Template:     _tk-master
  Version:      1.0.0
@@ -45,7 +45,9 @@ background-color: black;
     color: #68B3C8;
     font-family: 'Exo 2', sans-serif;
 }
-nav>li>a:hover
+nav>li>a:hover {
+	color:#3091B2;
+}
 
 body {
 	background-color: #FFFCF5;
@@ -65,10 +67,10 @@ color: #68B3C8;
 }
 a {
 	color: #68B3C8;
-	font-family: 'Exo 2', sans-serif;
+	font-family: 'Raleway', sans-serif;
 }
 a:hover {
-color: #66615B;
+color: #427C89;
 }
 
 body {
@@ -78,4 +80,20 @@ body {
  p {
  	font-family: 'Raleway', sans-serif;
  }
- 
+ h2,h3,h4,h5,h6
+ {
+
+ 	font-family: 'Raleway', sans-serif;
+ }
+ .page-title {
+
+ 	font-family: 'Raleway', sans-serif;
+ }
+ .navbar-default .navbar-brand:hover {
+    color: #427C89;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #427C89;
+
+    }

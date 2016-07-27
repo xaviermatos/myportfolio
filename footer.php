@@ -20,7 +20,7 @@
 
 				<div class="site-info">
 					<p> Website made by Xavier Matos, Contact him at xmatos@aoiths.org. 
-					<p> Powered by <a href="https://wordpress.org/"> Wordpress </a> and <a href="https://themekraft.com/"> Themekraft</a>
+					<p> Powered by <a href="https://wordpress.org/" target="_blank"> Wordpress </a> and <a href="https://themekraft.com/" target="_blank">Themekraft</a>
 
 			</div>
 		</div>

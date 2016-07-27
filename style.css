@@ -16,7 +16,7 @@ background-color: black;
 }
 .jumbotron{
 	background-color: transparent;
-	color: #68B3C8;
+	color: #3091B2;
 	font-family: 'Exo 2', sans-serif;
 }
 .content {
@@ -27,7 +27,7 @@ background-color: black;
 .navbar.navbar-default {
 	background-color: transparent;
 	border: 0px;
-	color: #68B3C8;
+	color: #3091B2;
 	font-family: 'Exo 2', sans-serif;
 }
 
@@ -37,12 +37,12 @@ background-color: black;
 }
 
 .navbar-default .navbar-brand {
-	color: #68B3C8;
+	color: #3091B2;
 	font-family: 'Exo 2', sans-serif;
 }
 
 .navbar-default .navbar-nav>li>a {
-    color: #68B3C8;
+    color: #3091B2;
     font-family: 'Exo 2', sans-serif;
 }
 nav>li>a:hover {
@@ -59,14 +59,14 @@ body {
 -webkit-background-size:100% 100%;
 background-size:100% 100%;
 background-repeat: no-repeat;
-color: #68B3C8;
+color: #3091B2;
 }
 .main-content {
-	color : #68B3C8;
+	color : #3091B2;
 	font-family: 'Exo 2', sans-serif;
 }
 a {
-	color: #68B3C8;
+	color: #3091B2;
 	font-family: 'Raleway', sans-serif;
 }
 a:hover {
@@ -94,6 +94,31 @@ body {
 }
 
 .navbar-default .navbar-nav>li>a:hover {
-    color: #427C89;
+    color: #427C89; 
 
+    }
+    .btn-primary {
+    color: #3091B2;
+    background-color: transparent;
+    border-color: #3091B2;
+}
+
+.btn-primary:hover {
+background-color: #3091B2;
+    color: #FFFFFF;
+    border-color: #3091B2;
+}
+.pager li>a, .pager li>span {
+    display: inline-block;
+    padding: 5px 14px;
+    background-color: transparent;
+    border: 1px solid #3091B2;
+    border-radius: 15px;
+    color: #3091B2;;
+}
+ .pager li>a:hover {
+    text-decoration: none;
+    background-color: #3091B2;
+    color: #FFFFFF;
+    border-color: #3091B2;
     }

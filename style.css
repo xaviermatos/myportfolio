@@ -103,14 +103,18 @@ body {
 
     }
     .btn-primary {
-    color: #3091B2;
+   display: inline-block;
     background-color: transparent;
-    border-color: #3091B2;
+    border: 1px solid #3091B2;
+    border-radius: 1px;
+    color: #3091B2;
+    text-decoration: none;
     transition: all 150ms linear;
 }
 
 .btn-primary:hover {
-background-color: #3091B2;
+ text-decoration: none;
+    background-color: #3091B2;
     color: #FFFFFF;
     border-color: #3091B2;
     text-decoration: none;
@@ -118,11 +122,10 @@ background-color: #3091B2;
 }
 .pager li>a, .pager li>span {
     display: inline-block;
-    padding: 5px 14px;
     background-color: transparent;
     border: 1px solid #3091B2;
-    border-radius: 15px;
-    color: #3091B2;;
+    border-radius: 1px;
+    color: #3091B2;
     text-decoration: none;
     transition: all 150ms linear;
 }
@@ -132,7 +135,6 @@ background-color: #3091B2;
     color: #FFFFFF;
     border-color: #3091B2;
     text-decoration: none;
-    transition: all 150ms linear;
     }
     .site-footer {
     	color : #3091B2;

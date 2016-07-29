@@ -25,11 +25,10 @@
 
 <body <?php body_class(); ?>>
 	<?php do_action( 'before' ); ?>
-
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
 <header id="masthead" class="site-header" role="banner">
 <?php // substitute the class "container-fluid" below if you want a wider content area ?>
 	<div class="container-fluid">
-		<div class="row">
 			<div class="site-header-inner col-sm-12">
 
 				<?php $header_image = get_header_image();
@@ -40,39 +39,24 @@
 				<?php } // end if ( ! empty( $header_image ) ) ?>
 
 
-				<div class="site-branding">
-					
-				</div>
-
 			</div>
 		</div>
-     <p>
-  
-     </p>
-  </div>
-  
-</div>
 	</div><!-- .container -->
 </header><!-- #masthead -->
 
-<nav class="site-navigation">
+<nav class="navbar navbar-inverse navbar-fixed-top">
 <?php // substitute the class "container-fluid" below if you want a wider content area ?>
 	<div class="container-fluid">
-		<div class="row">
 			<div class="site-navigation-inner col-sm-12">
-				<div class="navbar navbar-default">
 					<div class="navbar-header">
 						<!-- .navbar-toggle is used as the toggle for collapsed navbar content -->
-						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
-							<span class="sr-only"><?php _e('Toggle navigation','_tk') ?> </span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-						</button>
-
-	
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+         				 <span class="icon-bar"></span>
+          					<span class="icon-bar"></span>
+         					 <span class="icon-bar"></span>
+    					  </button>
+						</div>
 						<!-- Your site title as branding in the menu -->
-						<a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
 					</div>
 
 					<!-- The WordPress Menu goes here -->
@@ -89,19 +73,32 @@
 							'walker' 			=> new wp_bootstrap_navwalker()
 						)
 					); ?>
-<div class = "jumbotron">
-     <h1>Portfolio</h1>
-     <p>By Xavier Matos</p>
-     
+
 				</div><!-- .navbar -->
 			</div>
 		</div>
 	</div><!-- .container -->
+	<div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="#section1">Section 1</a></li>
+          <li><a href="#section2">Section 2</a></li>
+          <li><a href="#section3">Section 3</a></li>      
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
 </nav><!-- .site-navigation -->
 
 <div class="main-content">
 <?php // substitute the class "container-fluid" below if you want a wider content area ?>
-	<div class="container">
-		<div class="row">
+	<div class="container-fluid">
+		<div class = "jumbotron">
+     <h1>Portfolio</h1>
+     <p>By Xavier Matos</p>
+     
+</div>
+	</div>
 			<div id="content" class="main-content-inner col-sm-12 col-md-8">
-

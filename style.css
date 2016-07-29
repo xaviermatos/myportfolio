@@ -1,7 +1,7 @@
 /*
- Theme Name:   Tk Xavier Matos
+ Theme Name:   Tk Xavier Matos 2
  Theme URI:    http://example.com/twenty-fifteen-child/
- Description:  TK Child Theme
+ Description:  TK Child Theme2
  Author:       Xavier Matos
  Author URI:   http://example.com
  Template:     _tk-master
@@ -54,8 +54,7 @@ body {
 	background-color: #FFFCF5;
 }
 .site-navigation-inner{
-	background-image: url("https://media.giphy.com/media/ygAaR0n5RsyAM/giphy.gif");
- background-color: #cccccc;
+ background-color: #333;
  moz-background-size:100% 100%;
 -webkit-background-size:100% 100%;
 background-size:100% 100%;
@@ -82,6 +81,7 @@ body {
 }
  p {
  	font-family: 'Raleway', sans-serif;
+    color : #3091B2;
  }
  h2,h3,h4,h5,h6
  {
@@ -141,3 +141,101 @@ body {
 	font-family: 'Exo 2', sans-serif;
     text-decoration: none;
     }
+    code {
+    padding: 0px;
+}
+input[type=submit] {
+display: inline-block;
+    background-color: transparent;
+    border: 1px solid #3091B2;
+    border-radius: 1px;
+    color: #3091B2;
+    text-decoration: none;
+    transition: all 150ms linear;
+
+}
+.wpcf7-form-control .wpcf7-submit{
+    background-color: #FF8F5E;
+    color: #B33C12;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #427C89;
+    background-color: transparent;
+}
+body {
+      position: relative;
+  }
+  .navbar-collapse
+  {
+    padding: 0px;
+  }
+
+  }
+  #section1 {padding-top:100px;}
+  #section2 {padding-top:100px;}
+  #section3 {padding-top:100px;}
+  #section41 {padding-top:100px;}
+  #section42 {padding-top:100px;}
+  </style>
+
+  h1.page-title {
+    padding: 10px;
+  }
+#masthead {
+    padding-top: 100px;
+  }
+h4 {
+    color : white;
+}
+
+.col-md-8 {
+    width: 100%;
+}
+
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #555;
+    background-color: #e7e7e7;
+}
+.navbar {
+  padding : 0px;
+  margin: 0px;
+  border-radius: 0px;
+}
+.container-fluid {
+  padding: 0px;
+  margin :0px;
+  border-radius: 0px;
+}
+.container-fluid .jumbotron {
+    border-radius: 0px;
+    background-image: url("https://media.giphy.com/media/ygAaR0n5RsyAM/giphy.gif");
+ background-color: #cccccc;
+ moz-background-size:100% 100%;
+-webkit-background-size:100% 100%;
+background-size:100% 100%;
+background-repeat: no-repeat;
+color: #3091B2;
+padding: 100px;
+}
+.site-header {
+  padding: 0px;
+  background-color: black;
+}
+#masthead {
+    padding-top: 65px;
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: #101010;
+    background-color: #333;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: #3091B2
+}
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
+    color: #427C89;
+    background-color: transparent;
+}
+.site-navigation-inner {
+  background-color: #333;
+}
